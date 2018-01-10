@@ -1,14 +1,15 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 import MapboxGL from '@mapbox/react-native-mapbox-gl';
+import { Badge } from 'react-native-elements';
 import BasePropTypes from '../utils/BasePropTypes';
+import MapHeader from '../components/MapHeader';
 import haversine from 'haversine';
 import pick from 'lodash/pick';
 import { lineString as makeLine } from '@turf/helpers';
-
 import MapboxClient from '../MapboxClient';
-
 import { onSortOptions } from '../utils';
+import colors from '../styles/colors';
 
 const lineStyle = {
   lineColor: 'white',
@@ -25,11 +26,12 @@ class SetUserTrackingModes extends React.Component {
     coordsToDraw: null,
     coordinates: [],
     prevLatLng: {},
+    trackingMode: 1,
     distanceTraveled: 0
   }
 
 
-  async componentDidMount() {
+  componentDidMount() {
     navigator.geolocation.getCurrentPosition(
       position => {},
       error => alert(error.message),
@@ -62,6 +64,7 @@ class SetUserTrackingModes extends React.Component {
             prevLatLng: newLatLngs
           });
         });
+    setTimeout( ()=> this.setState({trackingMode:3}),1000)
   }
 
   componentWillUnmount() {
@@ -94,10 +97,14 @@ class SetUserTrackingModes extends React.Component {
           zoomLevel={15}
           attributionEnabled
           animated
-          userTrackingMode={MapboxGL.UserTrackingModes.Follow}
+          userTrackingMode={this.state.trackingMode}
           logoEnabled={false}
           style={{flex:1}} />
         {this.renderRoute()}
+        <Badge containerStyle={{ backgroundColor: colors.primary.blue}}>
+          <Text>Start</Text>
+        </Badge>
+        <MapHeader onBack={this.props.onDismiss} label={`${parseFloat(this.state.distanceTraveled.toFixed(2))} Km`}/>
       </View>
     );
   }

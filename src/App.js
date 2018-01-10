@@ -99,7 +99,7 @@ class App extends React.Component {
     this.setState({ activeScreen: 1 });
   }
 
-  onCloseExample = () => {
+  onClose = () => {
     this.setState({ activeScreen: -1 });
   }
 
@@ -116,7 +116,7 @@ class App extends React.Component {
       <Modal {...modalProps}>
         <View style={styles.exampleBackground}>
           {modalProps.visible  ? (
-            <TrackScreen key={'Track Screen'} label={'Track Screen'} onDismissExample={this.onCloseExample} />
+            <TrackScreen key={'Track Screen'} label={'Track Screen'} onDismiss={this.onClose} />
           ) : null}
         </View>
       </Modal>
