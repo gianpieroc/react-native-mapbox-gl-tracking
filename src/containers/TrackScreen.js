@@ -101,10 +101,10 @@ class SetUserTrackingModes extends React.Component {
           logoEnabled={false}
           style={{flex:1}} />
         {this.renderRoute()}
-        <Badge containerStyle={{ backgroundColor: colors.primary.blue}}>
-          <Text>Start</Text>
+        <Badge containerStyle={{backgroundColor: colors.primary.blue, height: 40, width: 280, alignSelf:'center', margin:20}}>
+          <Text style={{color:colors.secondary.white, fontSize: 18}}>Start</Text>
         </Badge>
-        <MapHeader onBack={this.props.onDismiss} label={`${parseFloat(this.state.distanceTraveled.toFixed(2))} Km`}/>
+        <MapHeader titleIcon onBack={this.props.onDismiss} label={`${parseFloat(this.state.distanceTraveled.toFixed(2))} Km`}/>
       </View>
     );
   }

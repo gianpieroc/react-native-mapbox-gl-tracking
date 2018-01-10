@@ -1,12 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet, View } from 'react-native';
 import { Icon, Header } from 'react-native-elements';
+import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import colors from '../styles/colors';
 
 const styles = StyleSheet.create({
+  row:{
+    flex:1,
+    flexDirection:'row',
+    alignItems:'flex-end',
+    justifyContent:'center',
+  },
   label: {
-    fontSize: 24,
+    fontSize: 22,
     color: colors.secondary.white,
   },
   baseHeader: {
@@ -58,7 +65,12 @@ class MapHeader extends React.PureComponent {
   }
 
   renderTitle () {
-    return <Text style={styles.label}>{this.props.label}</Text>;
+    return (
+      <View style={styles.row}>
+        {this.props.titleIcon && <MaterialIcon name={'road'} size={20} color={colors.secondary.white} style={{marginHorizontal:5}}/>}
+        <Text style={styles.label}>{this.props.label}</Text>
+      </View>
+    )
   }
 
   render () {
