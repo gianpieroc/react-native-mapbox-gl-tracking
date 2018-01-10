@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTModuleMethod.mm \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTModuleMethod.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridgeMethod.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTNullability.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTCxxConvert.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTManagedPointer.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTParserUtils.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Profiler/RCTProfile.h

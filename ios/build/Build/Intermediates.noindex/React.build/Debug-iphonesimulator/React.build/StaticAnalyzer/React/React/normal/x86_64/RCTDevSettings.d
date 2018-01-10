@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTJSEnvironment.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/stephanie/dev/react-native-mapbox-gl/example/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h
